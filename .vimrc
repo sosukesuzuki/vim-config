@@ -15,8 +15,9 @@ call dein#load_toml(s:lazy_toml, {'lazy': 1})
 call dein#end()
 call dein#save_state()
 
-source ~/.vim/config/plugins/neocomplete.vim
-source ~/.vim/config/plugins/nerdtree.vim
-source ~/.vim/config/plugins/unite.vim
+
+for f in split(glob(g:rc_dir . '/plugins/*.vim'), '\n')
+  exe 'source' f
+endfor
 
 source ~/.vim/config/editor.vim
