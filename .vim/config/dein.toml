@@ -24,3 +24,7 @@ repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'w0rp/ale'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
