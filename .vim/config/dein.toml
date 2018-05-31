@@ -21,3 +21,6 @@ repo = 'Lokaltog/vim-powerline'
 
 [[plugins]]
 repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'w0rp/ale'
