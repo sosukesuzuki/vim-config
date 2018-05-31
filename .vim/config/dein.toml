@@ -28,3 +28,6 @@ repo = 'w0rp/ale'
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
 build = 'make'
+
+[[plugins]]
+repo ='Shougo/vimshell'
