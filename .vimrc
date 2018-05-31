@@ -15,7 +15,6 @@ call dein#load_toml(s:lazy_toml, {'lazy': 1})
 call dein#end()
 call dein#save_state()
 
-
 for f in split(glob(g:rc_dir . '/plugins/*.vim'), '\n')
   exe 'source' f
 endfor
