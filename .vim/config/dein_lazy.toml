@@ -33,3 +33,11 @@ on_ft = 'typescript'
 [[plugins]]
 repo = 'cespare/vim-toml'
 on_ft = 'toml'
+
+[[plugins]]
+repo = 'digitaltoad/vim-pug'
+on_ft = 'pug'
+
+[[plugins]]
+repo = 'wavded/vim-stylus'
+on_ft = 'stylus'
