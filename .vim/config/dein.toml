@@ -31,3 +31,6 @@ build = 'make'
 
 [[plugins]]
 repo ='Shougo/vimshell'
+
+[[plugins]]
+repo = 'ctrlpvim/ctrlp.vim'

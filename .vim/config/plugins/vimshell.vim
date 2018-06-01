@@ -4,4 +4,4 @@ let g:vimshell_user_prompt = 'getcwd()'
 
 let g:vimshell_vimshrc_path = expand('~/.vim/config/.vimshrc')
 
-nnoremap <silent><C-p> :VimShellPop<CR>
+nnoremap <silent><C-z> :VimShellPop<CR>
