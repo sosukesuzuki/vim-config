@@ -34,3 +34,6 @@ repo ='Shougo/vimshell'
 
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
+
+[[plugins]]
+repo = 'Shougo/vim-vcs'
