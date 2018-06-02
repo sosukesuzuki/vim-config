@@ -5,7 +5,7 @@ repo = 'Shougo/dein.vim'
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
-repo = 'Shougo/neocomplete'
+repo = 'Shougo/deoplete.vim'
 
 [[plugins]]
 repo = 'Shougo/unite.vim'
