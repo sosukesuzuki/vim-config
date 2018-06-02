@@ -17,7 +17,10 @@ repo = 'Shougo/neomru.vim'
 repo = 'Shougo/vimproc.vim'
 
 [[plugins]]
-repo = 'powerline/powerline'
+repo = 'vim-airline/vim-airline'
+
+[[plguins]]
+repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
 repo = 'cohama/lexima.vim'

@@ -3,7 +3,6 @@ set nobackup
 set noswapfile
 set hidden
 set showcmd
-set clipboard=unnamed,autoselect
 
 set laststatus=2
 set t_Co=254
@@ -17,8 +16,6 @@ set showmatch
 set wildmode=list:longest
 nnoremap j gj
 nnoremap k gk
-
-set term=xterm-256color
 
 set list listchars=tab:\▸\-
 set expandtab
