@@ -3,10 +3,11 @@ if &compatible
 endif
 set runtimepath+=~/.config/nvim/plugins/repos/github.com/Shougo/dein.vim
 
+let g:rc_dir = expand('~/.config/nvim/config')
+
 if dein#load_state(expand('~/.config/nvim/plugins'))
   call dein#begin(expand('~/.config/nvim/plugins'))
 
-  let g:rc_dir = expand('~/.config/nvim/config')
   let s:toml = g:rc_dir . '/dein.toml'
   let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
@@ -24,4 +25,4 @@ for f in split(glob(g:rc_dir . '/plugins/*.vim'), '\n')
   exe 'source' f
 endfor
 
-source ~/.vim/config/editor.vim
+source ~/.config/nvim/config/editor.vim
