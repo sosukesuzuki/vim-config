@@ -8,9 +8,6 @@ repo = 'scrooloose/nerdtree'
 repo = 'Shougo/deoplete.nvim'
 
 [[plugins]]
-repo = 'Shougo/unite.vim'
-
-[[plugins]]
 repo = 'Shougo/denite.nvim'
 
 [[plugins]]
