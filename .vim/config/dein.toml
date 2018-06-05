@@ -37,3 +37,6 @@ repo = 'Shougo/vim-vcs'
 
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
+
+[[plugins]]
+repo = 'jacoborus/tender.vim'

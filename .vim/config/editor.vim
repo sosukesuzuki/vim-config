@@ -30,4 +30,6 @@ set hlsearch
 
 set backspace=indent,eol,start
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
+
 syntax on
+colorscheme tender
