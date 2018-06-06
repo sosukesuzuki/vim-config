@@ -6,3 +6,4 @@ let g:vimshell_right_prompt = 'vcs#info("(%s)-[%b]", "(%s)-[%b|%a]")'
 let g:vimshell_vimshrc_path = expand('~/.vim/config/.vimshrc')
 
 nnoremap <silent><C-z> :VimShellPop<CR>
+nnoremap <silent><C-x> :VimShellClose<CR>
