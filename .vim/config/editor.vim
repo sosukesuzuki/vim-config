@@ -31,5 +31,10 @@ set hlsearch
 set backspace=indent,eol,start
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 
+" config for OCaml
+let g:opamshare = expand("~/.opam/packages")
+execute 'set rtp+=' . g:opamshare . '/merlin/vim'
+execute 'set rtp^=' . g:opamshare . '/ocp-indent/vim'
+
 syntax on
 colorscheme tender
