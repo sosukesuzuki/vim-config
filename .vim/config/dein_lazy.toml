@@ -41,3 +41,7 @@ on_ft = 'pug'
 [[plugins]]
 repo = 'wavded/vim-stylus'
 on_ft = 'stylus'
+
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = 'vue'
