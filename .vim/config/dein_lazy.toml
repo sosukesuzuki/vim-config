@@ -45,3 +45,11 @@ on_ft = 'stylus'
 [[plugins]]
 repo = 'posva/vim-vue'
 on_ft = 'vue'
+
+[[plugins]]
+repo = 'JulesWang/css.vim'
+on_ft = 'css'
+
+[[plugins]]
+repo = 'cakebaker/scss-syntax.vim'
+on_ft = ['scss', 'vue']
