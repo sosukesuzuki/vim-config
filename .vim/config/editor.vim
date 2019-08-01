@@ -29,6 +29,9 @@ set wrapscan
 set hlsearch
 
 tnoremap <silent> <ESC> <C-\><C-n>
+nnoremap <silent> <C-j> :bprev<CR>
+nnoremap <silent> <C-k> :bnext<CR>
+nnoremap <silent> <C-t> :tabnew<CR>
 
 set backspace=indent,eol,start
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
