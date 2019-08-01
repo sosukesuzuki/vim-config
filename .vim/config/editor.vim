@@ -28,6 +28,8 @@ set incsearch
 set wrapscan
 set hlsearch
 
+tnoremap <silent> <ESC> <C-\><C-n>
+
 set backspace=indent,eol,start
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 
