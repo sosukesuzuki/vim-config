@@ -1,6 +1,6 @@
 # vim-config
 
-vimの設定ファイルです。
+[@sosukesuzuki](https://github.com/sosukesuzuki)の NeoVim の設定ファイルです。
 
 ## 使い方
 
