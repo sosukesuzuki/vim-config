@@ -1,7 +1,7 @@
 if &compatible
     set nocompatible
 endif
-set runtimepath+=~/.config/nvim/plugins/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 let g:rc_dir = expand('~/.config/nvim/config')
 
