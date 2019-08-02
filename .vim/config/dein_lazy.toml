@@ -53,3 +53,11 @@ on_ft = 'css'
 [[plugins]]
 repo = 'cakebaker/scss-syntax.vim'
 on_ft = ['scss', 'vue']
+
+[[plugins]]
+repo = 'JulesWang/css.vim'
+on_ft = 'css'
+
+ [[plugins]]
+repo = 'cakebaker/scss-syntax.vim'
+on_ft = ['scss', 'vue']
