@@ -3,6 +3,8 @@ if &compatible
 endif
 set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
+let mapleader = ","
+
 let g:rc_dir = expand('~/.config/nvim/config')
 
 if dein#load_state(expand('~/.config/nvim/plugins'))
