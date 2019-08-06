@@ -42,4 +42,5 @@ execute 'set rtp+=' . g:opamshare . '/merlin/vim'
 execute 'set rtp^=' . g:opamshare . '/ocp-indent/vim'
 
 syntax on
-colorscheme nord
+set background=dark
+colorscheme dracula

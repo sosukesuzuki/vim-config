@@ -39,4 +39,4 @@ repo = 'Shougo/vim-vcs'
 repo = 'ctrlpvim/ctrlp.vim'
 
 [[plugins]]
-repo = 'arcticicestudio/nord-vim'
+repo = 'dracula/vim'
