@@ -1,17 +1,17 @@
 # vim-config
 
-[@sosukesuzuki](https://github.com/sosukesuzuki)の NeoVim の設定ファイルです。
+My configuration for neovim
 
-## 使い方
+## Usage
 
-プラグインマネージャとして[Shougo/dein](https://github.com/shougo/dein)を使うので、インストールします。
+Install [Shougo/dein](https://github.com/shougo/dein) to manage packages.
 
 ```
 $ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 $ sh installer.sh ~/.cache/dein
 ```
 
-そのあとこのリポジトリをクローンし、`link.sh`を実行してシンボリックリンクを貼ります。
+Then, close this repository and exec `link.sh` to put symbolic link.
 
 ```sh
 $ git clone git@github.com:sosukesuzuki/vim-config.git
