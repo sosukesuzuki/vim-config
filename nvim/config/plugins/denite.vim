@@ -1,1 +1,1 @@
-" TODO: Add config for Denite
+nnoremap <silent> <C-p> :<C-u>Denite file/rec<CR>

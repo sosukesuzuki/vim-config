@@ -26,7 +26,4 @@ repo = 'cohama/lexima.vim'
 repo = 'w0rp/ale'
 
 [[plugins]]
-repo = 'ctrlpvim/ctrlp.vim'
-
-[[plugins]]
 repo = 'dracula/vim'
