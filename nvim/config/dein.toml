@@ -26,16 +26,6 @@ repo = 'cohama/lexima.vim'
 repo = 'w0rp/ale'
 
 [[plugins]]
-repo = 'Shougo/vimproc.vim'
-build = 'make'
-
-[[plugins]]
-repo ='Shougo/vimshell'
-
-[[plugins]]
-repo = 'Shougo/vim-vcs'
-
-[[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
 [[plugins]]
